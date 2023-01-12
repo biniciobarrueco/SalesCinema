@@ -1,0 +1,24 @@
+#DENSITY-BASED ALGORITHM for identify outliers in a dataset by considering the local density of the points
+"""
+    1) DBSCAN (Density-Based Spatial Clustering of Applications with Noise). Those points that are packaged in low-density regions as outliers.
+    2) HDBSCAN (Hierarchical Density-Based Spatial Clustering of Applications with Noise)
+    3) OPTICS algorithm is (Ordering Points to Identify the Clustering Structure)
+    4) ABOD (Angle-Based Outlier Detection)
+    5) KDEOS (Kernel Density-Based Outlier Selection)
+    6) LOF (Local Ooutlier Factor)
+"""
+
+#DISTANCE-BASED ALGORITHM for identify outliers in a dataset by considering the distance of a group points.
+"""
+    1) KNN (k-Nearest Neighbors)
+    2) Fast ABOD (Fast Angle-Based Outlier Detection)
+    3) LOF (Local Ooutlier Factor)
+    4) MCD (Minimum Covariance Determinant)
+    5) ABOD (Angle-Based Outlier Detection)
+"""
+
+#STATISTICAL TECHNIQUES to identify outliers based in dimensionality(PCA), Linear(LMS), and extreme value analysis Z-score
+"""
+    1) PCA (Principal Component Analysis) Identify points that are far from the main distribution of the data in the low-dimensional subspace
+    2) LMS (Least Median Squares) Fit a linear regression model identifying points that have large residuals (predicted vs actual) as potencial outliers
+"""
